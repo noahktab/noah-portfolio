@@ -1,47 +1,100 @@
-body {
-  font-family: 'Segoe UI', sans-serif;
+* {
   margin: 0;
   padding: 0;
-  background-color: #fdfdfd;
-  color: #333;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'Fira Code', 'Courier New', monospace;
+  background-color: lch(16.79% 15.2 231.03);
+  color: #222;
+  margin: 0;
+  padding: 0;
 }
 
 .App {
-  max-width: 800px;
-  margin: 0 auto;
+  max-width: 900px;
+  margin: auto;
   padding: 2rem;
 }
 
 header {
   text-align: center;
-  margin-bottom: 2rem;
-}
-
-nav {
-  margin-top: 1rem;
-}
-
-nav a {
-  margin: 0 1rem;
-  text-decoration: none;
-  color: teal;
-  font-weight: bold;
-}
-
-section {
   margin-bottom: 3rem;
 }
 
-.project {
-  background: #f4f4f4;
-  padding: 1rem;
-  border-radius: 8px;
-  margin-bottom: 1rem;
+.name {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.navbar {
+  margin-top: 1rem;
+}
+
+.navbar a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #0077cc;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+section {
+  margin-bottom: 4rem;
+}
+
+h2 {
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+.project-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 1.5rem;
+  border-radius: 6px;
+  transition: box-shadow 0.3s;
+}
+
+.project-card:hover {
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.project-card a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: #0077cc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.tags {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 0.5rem;
 }
 
 footer {
   text-align: center;
   margin-top: 4rem;
   font-size: 0.9rem;
-  color: #888;
+  color: #aaa;
 }
