@@ -4,14 +4,14 @@ import './Hero.css';
 
 function Hero() {
   return (
-    <section className="hero" id="home">
-      <div className="overlay">
+    <div className="hero">
+      <div className="hero-overlay">
         <h1>WELCOME TO MY PAGE</h1>
-        <p className="subtitle">Noah Tabori</p>
-        <p className="roles">Software Dev | Full Stack | Game Dev Enthusiast </p>
+        <h2>Noah Tabori</h2>
+        <p>Software Dev | Full Stack | Game Dev Enthusiast</p>
         <a href="#resume" className="hero-button">CHECK OUT MY RESUME!</a>
       </div>
-    </section>
+    </div>
   );
 }
 
