@@ -7,8 +7,9 @@ function Hero() {
     <div className="hero">
       <div className="hero-overlay">
         <h1>WELCOME TO MY PAGE</h1>
-        <h2>Noah Tabori</h2>
+        <h3>Noah Tabori</h3>
         <p>Software Dev | Full Stack | Game Dev Enthusiast</p>
+        <p></p>
         <a href="#resume" className="hero-button">CHECK OUT MY RESUME!</a>
       </div>
     </div>

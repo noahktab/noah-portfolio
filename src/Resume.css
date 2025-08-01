@@ -1,55 +1,93 @@
 .resume-section {
-  background-color: #1e2a38;
+  background-color: #001a33;
   color: #f0f0f0;
-  padding: 60px 20px;
-  text-align: center;
+  padding: 4rem 2rem;
+  border-radius: 20px;
+  max-width: 1000px;
+  margin: 4rem auto;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
 }
 
 .section-title {
-  font-size: 2em;
-  margin-bottom: 30px;
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
+  font-size: 2.2rem;
+  margin-bottom: 2.5rem;
+  text-align: center;
+  color: #ffffff;
+  border-bottom: 2px solid #2c3e50;
+  padding-bottom: 0.5rem;
 }
 
 .resume-card {
-  background-color: #2a3d4f;
-  padding: 40px;
-  max-width: 850px;
-  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 2.5rem;
   border-radius: 12px;
-  text-align: left;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  line-height: 1.7;
 }
 
 .name {
-  font-size: 1.8em;
+  font-size: 1.8rem;
   font-weight: bold;
-  margin-bottom: 10px;
+  margin-bottom: 0.2rem;
 }
 
 .contact {
-  margin-bottom: 25px;
   font-style: italic;
-  color: #ccc;
+  font-size: 0.95rem;
+  color: #cccccc;
+  margin-bottom: 2rem;
 }
 
 .section-block {
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
+}
+
+.section-block h3 {
+  font-size: 1.2rem;
+  color: #a5d8ff;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 0.3rem;
+}
+
+.section-block p,
+.section-block ul li {
+  font-size: 1rem;
+  margin-bottom: 0.7rem;
+  color: #e0e0e0;
 }
 
 .section-block ul {
-  margin-top: 8px;
-  padding-left: 20px;
+  padding-left: 1.5rem;
+  list-style-type: disc;
 }
 
 .skills-list {
-  text-align: left;
-  padding-left: 0;
-  list-style: none;
-  margin-top: 15px;
+  padding-left: 1.5rem;
+  list-style: disc;
+  color: #e0e0e0;
 }
 
 .skills-list li {
-  margin-bottom: 10px;
+  margin-bottom: 0.6rem;
+}
+
+.resume-download-wrapper {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.resume-download-button {
+  display: inline-block;
+  background-color: #024e6e;
+  color: white;
+  padding: 0.7rem 1.4rem;
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.resume-download-button:hover {
+  background-color: #005fa3;
 }

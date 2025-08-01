@@ -54,7 +54,9 @@ section {
   margin-bottom: 4rem;
 }
 
+/* ✅ Universal h2 centering */
 h2 {
+  text-align: center;
   border-bottom: 2px solid #ddd;
   padding-bottom: 0.5rem;
   margin-bottom: 1.5rem;
@@ -75,7 +77,7 @@ h2 {
 }
 
 .project-card:hover {
-  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 .project-card a {
@@ -97,4 +99,47 @@ footer {
   margin-top: 4rem;
   font-size: 0.9rem;
   color: #aaa;
+}
+
+h2.left {
+  text-align: left;
+}
+
+footer {
+  text-align: center;
+  margin-top: 4rem;
+  font-size: 0.85rem;
+  color: #f1f1f1;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer-note {
+  margin: 0;
+  font-size: 0.85rem;
+  color: #f1f1f1;
+}
+
+.footer-links {
+  display: flex;
+  gap: 0.6rem;
+}
+
+.footer-icon {
+  width: 32px;
+  height: 32px;
+  background-color: #fff;
+  border-radius: 4px;
+  display: inline-block;
+  opacity: 0.4;
+  transition: opacity 0.3s ease;
+}
+
+.footer-icon:hover {
+  opacity: 0.7;
 }

@@ -41,9 +41,16 @@
   font-weight: 500;
   margin-bottom: 0.3rem;
 }
+.hero h3 {
+  color: white;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-bottom: 0.3rem;
+}
 
 .hero p {
-  font-size: 1rem;
+  font-size: 0.9rem;
   text-align: center;
   margin-bottom: 1.5rem;
   color: white;
