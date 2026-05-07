@@ -9,7 +9,7 @@ function Resume() {
       <div className="resume-card">
         <div className="name">Noah Tabori</div>
         <div className="contact">
-          Boulder, CO & Kailua, HI · taborinoah@gmail.com · 808-729-4009
+          Boulder, CO & Kailua, HI | taborinoah@gmail.com | 808-729-4009
         </div>
 
         <div className="section-block">
@@ -24,11 +24,11 @@ function Resume() {
           <h3>Education</h3>
           <ul>
             <li>
-              <strong>University of Colorado Boulder</strong> — B.A. in Computer Science, Minor in Music (May 2025)<br />
-              GPA: 3.6 · Courses: Algorithms, OS, DB Systems, HCI, OOP, Biological Networks
+              <strong>University of Colorado Boulder</strong> - B.A. in Computer Science, Minor in Music (May 2025)<br />
+              GPA: 3.6 | Courses: Algorithms, OS, DB Systems, HCI, OOP, Biological Networks
             </li>
             <li>
-              <strong>Punahou School, Honolulu, HI</strong> — Graduated 2021 (Grades K–12)
+              <strong>Punahou School, Honolulu, HI</strong> - Graduated 2021 (Grades K-12)
             </li>
           </ul>
         </div>
@@ -46,25 +46,36 @@ function Resume() {
             </li>
             <li>
               <strong>Punahou School</strong>, Teaching Assistant (Summer 2022)<br />
-              Supported art classes for ages 7–9. Assisted instruction and supervised student activities.
+              Supported art classes for ages 7-9. Assisted instruction and supervised student activities.
             </li>
           </ul>
         </div>
 
         <div className="section-block">
-          <h3>Leadership & Projects</h3>
+          <h3>Projects</h3>
           <ul>
             <li>
-              <strong>Trumpet Leadership – CU Boulder Marching Band</strong><br />
-              Led 40+ section, facilitated rehearsals, morale, and faculty communication.
+              <strong>InvitroLibrary</strong> - Volunteer Frontend & UX Developer (2026)<br />
+              Contributing to an AI-driven educational web app that helps 3rd grade students learn the scientific method through interactive observation of ulu (breadfruit) plant kits. Focused on React frontend work, gamified weekly objectives, interactive tasks, and child-friendly UI elements.
+              <br />Technologies: TypeScript, React.js, Replit AI, Claude Code
             </li>
             <li>
-              <strong>Reversle</strong> — Flutter mobile puzzle game (iOS/Android)<br />
+              <strong>Reversle</strong> - Flutter mobile puzzle game (iOS/Android)<br />
               Developed game mechanics, UI, Firebase sync. <a href="https://apps.apple.com/us/app/strategy-puzzle-reversle/id6463188331" target="_blank" rel="noreferrer">View on App Store</a>
             </li>
             <li>
-              <strong>Loopover iOS</strong> — 1st Place HackCU10 Project<br />
+              <strong>Loopover iOS</strong> - 1st Place HackCU10 Project<br />
               Built Swift/Xcode puzzle game in 24 hours. <a href="https://github.com/typicel/loopover-ios" target="_blank" rel="noreferrer">View on GitHub</a>
+            </li>
+          </ul>
+        </div>
+
+        <div className="section-block">
+          <h3>Leadership</h3>
+          <ul>
+            <li>
+              <strong>Trumpet Leadership - CU Boulder Marching Band</strong><br />
+              Led 40+ section, facilitated rehearsals, morale, and faculty communication.
             </li>
           </ul>
         </div>
@@ -81,7 +92,7 @@ function Resume() {
 
       <div className="resume-download-wrapper">
         <a
-          href="/Noah Tabori Resume (1).pdf"
+          href="/Resume-Noah-Tabori.pdf"
           download="Resume-Noah-Tabori.pdf"
           className="resume-download-button"
         >
