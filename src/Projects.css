@@ -61,6 +61,59 @@
   flex-shrink: 0;
 }
 
+.project-visual {
+  width: 180px;
+  height: 180px;
+  border-radius: 8px;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.invitro-visual {
+  background:
+    radial-gradient(circle at 28% 22%, rgba(182, 232, 177, 0.95) 0 11%, transparent 12%),
+    radial-gradient(circle at 68% 26%, rgba(92, 166, 111, 0.85) 0 9%, transparent 10%),
+    linear-gradient(145deg, #d8f3dc 0%, #74c69d 48%, #1b4332 100%);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  box-shadow: inset 0 0 36px rgba(0, 26, 51, 0.18);
+}
+
+.visual-label {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  right: 1rem;
+  color: #073b2b;
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+
+.visual-card {
+  position: absolute;
+  left: 1rem;
+  right: 1rem;
+  background: rgba(255, 255, 255, 0.88);
+  border-radius: 6px;
+  color: #073b2b;
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 0.35rem 0.5rem;
+  box-shadow: 0 8px 18px rgba(0, 26, 51, 0.16);
+}
+
+.visual-card-observe {
+  top: 4rem;
+}
+
+.visual-card-record {
+  top: 6.5rem;
+}
+
+.visual-card-learn {
+  top: 9rem;
+}
+
 /* Content */
 .project-content {
   flex: 1;
@@ -75,6 +128,11 @@
 .project-content p {
   margin-bottom: 1rem;
   line-height: 1.6;
+}
+
+.project-tech {
+  color: #b0c4de;
+  font-size: 0.95rem;
 }
 
 .project-button-wrapper {
@@ -104,6 +162,12 @@
 
   .project-card img {
     width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .project-visual {
+    width: 100%;
+    max-width: 320px;
     margin-bottom: 1rem;
   }
 
