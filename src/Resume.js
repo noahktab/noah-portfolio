@@ -82,7 +82,7 @@ function Resume() {
       <div className="resume-download-wrapper">
         <a
           href="/Noah Tabori Resume (1).pdf"
-          download="Noah_Tabori_Resume.pdf"
+          download="Resume-Noah-Tabori.pdf"
           className="resume-download-button"
         >
           Download PDF
