@@ -56,8 +56,7 @@ function Resume() {
           <ul>
             <li>
               <strong>InvitroLibrary</strong> - Volunteer Frontend & UX Developer (2026)<br />
-              Contributing to an AI-driven educational web app that helps 3rd grade students learn the scientific method through interactive observation of ulu (breadfruit) plant kits. Focused on React frontend work, gamified weekly objectives, interactive tasks, and child-friendly UI elements.
-              <br />Technologies: TypeScript, React.js, Replit AI, Claude Code
+                Developed and gamified tools & objectives for an education-focused 3rd grade experiment app.
             </li>
             <li>
               <strong>Reversle</strong> - Flutter mobile puzzle game (iOS/Android)<br />
