@@ -31,9 +31,24 @@
 }
 
 .about-grid {
-  display: flex;
-  flex-direction: column;
-  gap: 3rem;
+  display: grid;
+  grid-template-columns: minmax(220px, 300px) 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+.headshot-panel {
+  width: 100%;
+}
+
+.about-headshot {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 8px;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.3);
 }
 
 .bio, .skills {
@@ -41,6 +56,10 @@
   background-color: rgba(255, 255, 255, 0.05);
   padding: 2rem;
   border-radius: 8px;
+}
+
+.skills {
+  grid-column: 1 / -1;
 }
 
 .bio h3, .skills h3 {
@@ -126,4 +145,23 @@
 
 .project-content a:hover {
   background-color: #005fa3;
+}
+
+@media (max-width: 760px) {
+  .about {
+    padding: 3rem 1.25rem;
+  }
+
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .headshot-panel {
+    max-width: 320px;
+    justify-self: center;
+  }
+
+  .skills {
+    grid-column: auto;
+  }
 }
